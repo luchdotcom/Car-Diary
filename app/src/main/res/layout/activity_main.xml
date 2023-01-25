@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.F95230.cardiary.MainActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_background">
+
+
+        <TextView
+            android:id="@+id/tvSingIn"
+            android:layout_width="217dp"
+            android:layout_height="63dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+             android:layout_marginEnd="100dp"
+            android:layout_marginStart="100dp"
+            android:background="#B81919"
+            android:gravity="center"
+            android:text="@string/Sign_in"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="389dp"
+            android:autofillHints=""
+            android:background="#B11B1B"
+            android:gravity="center"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:hint="@string/username"/>
+
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+android:layout_marginTop="250dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:background="@color/design_default_color_error"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="450dp"
+            android:background="@color/cardview_dark_background"
+            android:text="@string/login"
+            />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="100dp"
+            android:gravity="center"
+            android:background="@color/design_default_color_error"
+            android:text="@string/attempts"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

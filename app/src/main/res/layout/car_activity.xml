@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.F95230.cardiary.CarActivity"
+    android:background="@drawable/img_background">
+
+    <Button
+        android:id="@+id/repairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="addRepairs"
+        android:text="@string/repairs" />
+
+
+    <Button
+        android:id="@+id/addCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="top"
+        android:text="@string/add_car" />
+
+    <Button
+        android:id="@+id/taxes"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:onClick="addTaxes"
+        android:text="@string/taxes"
+        android:textColorLink="@color/black" />
+
+    <Button
+        android:id="@+id/trips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="addTrips"
+        android:text="@string/trips" />
+
+</LinearLayout>
